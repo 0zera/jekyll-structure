@@ -1,0 +1,25 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+//LINK COLOR/UNDERLINE CORRECTION
+a,
+    a:hover, a:visited, a:active
+    {
+        color: white;
+        text-decoration:none;
+    }
+    
+//TEXT SELECTION COLOR CORRECTION
+::selection{
+    background-color: #F1F1F1;
+      opacity: 1;
+      color: #000000;
+}

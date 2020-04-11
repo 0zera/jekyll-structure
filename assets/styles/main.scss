@@ -1,0 +1,32 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+// base
+@import '_sass/base/base';
+@import '_sass/base/reset';
+@import '_sass/base/typography';
+
+// variable
+@import '_sass/variables/colors';
+@import '_sass/variables/font-size';
+
+// includes ;
+@import '_sass/includes/header';
+@import '_sass/includes/footer';
+
+// pages
+@import '_sass/pages/home';
+@import '_sass/pages/posts';
+@import '_sass/pages/contact';
+@import '_sass/pages/404';
+
+// responsive
+@import '_sass/responsive/1600px';
+@import '_sass/responsive/1100px';
+@import '_sass/responsive/800px';
+@import '_sass/responsive/500px';
+@import '_sass/responsive/320px';
+
+// theme
+//@import 'themes/guides';

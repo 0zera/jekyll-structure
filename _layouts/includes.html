@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <!-- BASIC  -->
+        <meta charset="utf-8">
+        <title>Website Name | {{ page.tab-title }}</title>
+        <meta name="description" content="Description">
+        <meta name="author" content="Author">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS  -->
+        <link rel="preload" href="/assets/styles/main.css" as="style">
+
+        <!-- FAVICON  -->
+        <link rel="icon" type="favicons" href="assets/img/favicons.png" />
+    </head>
+    <body>
+
+        {% include header.html%}
+        {{ content }}
+        {% include footer.html %}
+
+        <!-- JS SCRIPTS -->
+
+    </body>
+</html>
